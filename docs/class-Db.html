@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.6.1" />
+
+	<title>Class Db | PDOWrapper</title>
+
+	<script type="text/javascript" src="resources/combined.js?144019575"></script>
+	<script type="text/javascript" src="elementlist.js?3492632927"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?1532301413" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li class="active"><a href="package-PDO.html">PDO</a>
+						</li>
+				<li><a href="package-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-Db.html">Db</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-PDO.html" title="Summary of PDO"><span>Package</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Db</h1>
+
+
+	<div class="description">
+	
+<p>DB Class</p>
+
+<p>This is a singleton class, to connect call connect();</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-PDO.html">PDO</a><br />
+
+				<b>Copyright:</b>
+				2012 Adam Nicholls<br />
+				<b>License:</b>
+				<a href="http://www.gnu.org/copyleft/lesser.html">The GNU LESSER GENERAL PUBLIC LICENSE, Version 2.1</a><br />
+				<b>Author:</b>
+				adam<br />
+				<b>Since:</b>
+				10-May-2012<br />
+				<b>Encoding:</b>
+				UTF-8<br />
+		<b>Located at</b> <a href="source-class-Db.html#29" title="Go to source code">Db.class.php</a><br />
+	</div>
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="getInstance" id="_getInstance">
+
+		<td class="attributes"><code>
+			 public static
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getInstance">#</a>
+		<code><a href="source-class-Db.html#144" title="Go to source code">getInstance</a>( )</code>
+
+		<div class="description short">
+			
+<p>Creates Itself.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Creates Itself.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br>self<br />
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="__set" id="___set">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___set">#</a>
+		<code><a href="source-class-Db.html#162" title="Go to source code">__set</a>( <span>string <var>$name</var></span>, <span>string <var>$value</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Magic Setter Method.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Magic Setter Method.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$name</var></dt>
+					<dd><code>string</code><br> Name of Variable Setting</dd>
+					<dt><var>$value</var></dt>
+					<dd><code>string</code><br> Value of Variable Setting</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>Returns True on Sucess<br />
+				</div>
+
+
+				<h4>Magic</h4>
+				<div class="list">
+				</div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="connect" id="_connect">
+
+		<td class="attributes"><code>
+			 public 
+			object
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_connect">#</a>
+		<code><a href="source-class-Db.html#217" title="Go to source code">connect</a>( <span>array <var>$connection</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Connects to Database and Creates PDO Object</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Connects to Database and Creates PDO Object</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$connection</var></dt>
+					<dd><code>array</code><br> Connection Parameters</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object</code><br>PDO Object<br />
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-Exception.html">Exception</a></code></code><br>PDO Error<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="execute" id="_execute">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_execute">#</a>
+		<code><a href="source-class-Db.html#255" title="Go to source code">execute</a>( )</code>
+
+		<div class="description short">
+			
+<p>Executes Prepared SQL Query</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Executes Prepared SQL Query</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>Sucessful Execution<br />
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code>exception</code><br>Missing PDO Instance<br />
+					<code>exception</code><br>Missing PDO Statement Object<br />
+					<code>exception</code><br>PDO Failure<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="fetchAll" id="_fetchAll">
+
+		<td class="attributes"><code>
+			 public 
+			object|array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_fetchAll">#</a>
+		<code><a href="source-class-Db.html#293" title="Go to source code">fetchAll</a>( <span>string <var>$type</var> = <span class="php-quote">'OBJECT'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Returns All Result As Array</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns All Result As Array</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$type</var></dt>
+					<dd><code>string</code><br> Type of Results to Return</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object|array</code><br />
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code>exception</code><br>Missing PDO Instance<br />
+					<code>exception</code><br>Missing PDO Statement Object<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="fetch" id="_fetch">
+
+		<td class="attributes"><code>
+			 public 
+			object|array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_fetch">#</a>
+		<code><a href="source-class-Db.html#319" title="Go to source code">fetch</a>( <span>string <var>$type</var> = <span class="php-quote">'OBJECT'</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Fetches A Row Of Data</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Fetches A Row Of Data</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$type</var></dt>
+					<dd><code>string</code><br> Data Type to Return</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>object|array</code><br>Returned Data<br />
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code>exception</code><br>Missing PDO Instance<br />
+					<code>exception</code><br>Missing PDO Statement Object<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="countColumns" id="_countColumns">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_countColumns">#</a>
+		<code><a href="source-class-Db.html#375" title="Go to source code">countColumns</a>( )</code>
+
+		<div class="description short">
+			
+<p>Counts Columns on Executed Query</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Counts Columns on Executed Query</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br />
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code>exception</code><br>Missing PDO Instance<br />
+					<code>exception</code><br>Missing PDO Statement Object<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="countRows" id="_countRows">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_countRows">#</a>
+		<code><a href="source-class-Db.html#398" title="Go to source code">countRows</a>( )</code>
+
+		<div class="description short">
+			
+<p>Counts Rows on Executed Query</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Counts Rows on Executed Query</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br />
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code>exception</code><br>Missing PDO Instance<br />
+					<code>exception</code><br>Missing PDO Statement Object<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getLastId" id="_getLastId">
+
+		<td class="attributes"><code>
+			 public 
+			boolean|mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getLastId">#</a>
+		<code><a href="source-class-Db.html#421" title="Go to source code">getLastId</a>( <span>string <var>$key</var> = <span class="php-quote">''</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Get Last Insert ID</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get Last Insert ID</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd><code>string</code><br> Column to Return</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean|mixed</code><br>False on Failure<br />
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code>exception</code><br>Missing PDO Instance<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="insert" id="_insert">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_insert">#</a>
+		<code><a href="source-class-Db.html#453" title="Go to source code">insert</a>( <span>string <var>$table</var></span>, <span>array <var>$values</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Insert Data Into Table</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Insert Data Into Table</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd><code>string</code><br> Table Name</dd>
+					<dt><var>$values</var></dt>
+					<dd><code>array</code><br> Array of Data to Insert</dd>
+				</dl></div>
+
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code>exception</code><br>Missing PDO Instance<br />
+					<code>exception</code><br>Missing PDO Statement Object<br />
+					<code>exception</code><br>Empty Values<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="replace" id="_replace">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_replace">#</a>
+		<code><a href="source-class-Db.html#490" title="Go to source code">replace</a>( <span>string <var>$table</var></span>, <span>array <var>$values</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Replace Data In Table</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Replace Data In Table</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd><code>string</code><br> Table Name</dd>
+					<dt><var>$values</var></dt>
+					<dd><code>array</code><br> Array of Data to Insert</dd>
+				</dl></div>
+
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code>exception</code><br>Missing PDO Instance<br />
+					<code>exception</code><br>Missing PDO Statement Object<br />
+					<code>exception</code><br>Empty Values<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="insertIgnore" id="_insertIgnore">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_insertIgnore">#</a>
+		<code><a href="source-class-Db.html#527" title="Go to source code">insertIgnore</a>( <span>string <var>$table</var></span>, <span>array <var>$values</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Insert Ignore Data into Table</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Insert Ignore Data into Table</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd><code>string</code><br> Table Name</dd>
+					<dt><var>$values</var></dt>
+					<dd><code>array</code><br> Array of Data to Insert</dd>
+				</dl></div>
+
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code>exception</code><br>Missing PDO Instance<br />
+					<code>exception</code><br>Missing PDO Statement Object<br />
+					<code>exception</code><br>Empty Values<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="update" id="_update">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_update">#</a>
+		<code><a href="source-class-Db.html#699" title="Go to source code">update</a>( <span>string <var>$table</var></span>, <span>array <var>$values</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$where</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Update Data In Table</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Update Data In Table</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd><code>string</code><br> Table Name</dd>
+					<dt><var>$values</var></dt>
+					<dd><code>array</code><br> Array of data to update</dd>
+					<dt><var>$where</var></dt>
+					<dd><code>array</code><br> Array of conditions for query</dd>
+				</dl></div>
+
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code>exception</code><br>Missing PDO Instance<br />
+					<code>exception</code><br>Empty Table<br />
+					<code>exception</code><br>Empty Values<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="delete" id="_delete">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_delete">#</a>
+		<code><a href="source-class-Db.html#777" title="Go to source code">delete</a>( <span>string <var>$table</var></span>, <span>array <var>$where</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Delete From Table</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Delete From Table</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd><code>string</code><br> Table Name</dd>
+					<dt><var>$where</var></dt>
+					<dd><code>array</code><br> Array of conditions for query</dd>
+				</dl></div>
+
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code>exception</code><br>Missing PDO Instance<br />
+					<code>exception</code><br>Empty Table Name<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="select" id="_select">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_select">#</a>
+		<code><a href="source-class-Db.html#828" title="Go to source code">select</a>( <span>string <var>$table</var></span>, <span>array <var>$where</var> = <span class="php-keyword1">array</span>()</span>, <span>array <var>$columns</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			
+<p>Select Data From Table</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Select Data From Table</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd><code>string</code><br> Table Name</dd>
+					<dt><var>$where</var></dt>
+					<dd><code>array</code><br> Array of conditions for query</dd>
+					<dt><var>$columns</var></dt>
+					<dd><code>array</code><br> Columns to return</dd>
+				</dl></div>
+
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code>exception</code><br>Missing PDO Instance<br />
+					<code>exception</code><br>Empty Table Name<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		PDOWrapper API documentation generated by <a href="http://apigen.org">ApiGen 2.6.1</a>
+	</div>
+</div>
+</div>
+</body>
+</html>
